@@ -1,21 +1,19 @@
 # vue-json-sample
 
-## Project setup
-```
-yarn install
+## 実行コマンド
+
+```sh
+$ npm install -g @vue/cli
+$ vue create vue-json-sample
+$ cd vue-json-sample
+$ vim src/assets/cities.json
+## => JSONデータファイルを作成
+$ vim src/App.vue
+## => JSONデータロードするように修正
+$ yarn serve
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## アクセス
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
+- http://localhost:8080
+- http://localhost:8080/assets/cities.json
